@@ -1,38 +1,26 @@
 # Inventory System
-A Python-based inventory tracking and financial analysis tool designed to bridge the gap between daily operations and business insights. 
 
-## 🚀 Features
-- Automated Data Processing: Processes daily JSON logs to calculate stock levels and turnover.
-- Financial Analytics: Calculates average costs, revenue, and profit/loss margins.
-- Business Insights: Generates logic-driven reports to identify trends and stock issues.
-- Dual Interface: 
-    * Terminal: Quick charts and reports using visualizer.py.
-    * Web Dashboard: Interactive HTML/JavaScript frontend powered by Chart.js.
+A versatile inventory tracking and financial analysis tool designed to bridge the gap between daily operations and business insights. This repository contains two versions of the system depending on your needs.
 
-## 📂 Project Structure
-- main.py: The central hub for the dashboard and system operations.
-- getdata.py: Handles input logic and price memory management.
-- average.py: Performs financial mathematics and data crunching.
-- insight.py: Generates business logic reports and status updates.
-- visualizer.py: Renders terminal-based charts and summaries.
-- index.html: The web frontend for visual data representation.
+## 📁 Repository Structure
 
-## 🛠️ Installation & Setup
-1. Clone the repository:
-   git clone https://github.com/GabrielUmudMamut/inventory-system.git
+This project is organized into two distinct versions:
+
+### 1. [Simple Version](./simple)
+The **Simple** version is designed for quick setups and basic tracking. It focuses on core functionality without the overhead of advanced analytics.
+* **Best for:** Small shops, personal projects, or beginners.
+* **Key Files:** Basic data entry and simple reporting.
+
+### 2. [Complex Version](./complex)
+The **Complex** version is a full-scale management suite with advanced logic and visualization.
+* **Best for:** Businesses requiring deep financial insights, trend analysis, and a web-based dashboard.
+* **Key Features:** Automated data crunching (average.py), trend insights (insight.py), and a web frontend (index.html) using Chart.js.
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/GabrielUmudMamut/inventory-system.git](https://github.com/GabrielUmudMamut/inventory-system.git)
    cd inventory-system
-
-2. Dependencies:
-   This project requires Python 3.x. 
-
-3. Data Format:
-   The system expects daily logs in the format w{week}d{day}.json.
-
-## 📈 Usage
-To process data and update reports:
-python main.py
-
-Simply open index.html in any browser to view visual analytics.
-
-## 📝 License
-MIT License
