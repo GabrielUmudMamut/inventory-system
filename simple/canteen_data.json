@@ -1,0 +1,20 @@
+[
+  {
+    "name": "banana",
+    "prepared": 20,
+    "sold": 10,
+    "leftover": 10
+  },
+  {
+    "name": "pizza",
+    "prepared": 100,
+    "sold": 65,
+    "leftover": 35
+  },
+  {
+    "name": "brownies",
+    "prepared": 15,
+    "sold": 15,
+    "leftover": 0
+  }
+]
