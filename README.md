@@ -24,3 +24,9 @@ The **Complex** version is a full-scale management suite with advanced logic and
    ```bash
    git clone [https://github.com/GabrielUmudMamut/inventory-system.git](https://github.com/GabrielUmudMamut/inventory-system.git)
    cd inventory-system
+
+2. **Choose your version:**
+   Navigate into either the /simple or /complex directory and follow the specific instructions in the README files located inside those folders.
+
+### 📊 Analytics & Visuals
+The system supports both terminal-based charts and a dedicated web dashboard (in the complex version) to help you visualize profit, loss, and inventory turnover.
